@@ -1,15 +1,15 @@
-*{
+* {
   box-sizing: border-box;
   font-family: sans-serif;
 }
 
-.header{
-  padding-bottom: 6px ;
+.header {
+  padding-bottom: 6px;
   padding-top: 6px;
-  background-color: #0050B3;
+  background-color: #0050b3;
 }
 
-.header-block{
+.header-block {
   max-width: 1200px;
   margin: auto;
   /* border: 2px solid yellow; */
@@ -17,44 +17,44 @@
   justify-content: space-between;
   align-items: center;
 }
-.search-input{
+.search-input {
   font-size: 14px;
   line-height: 22px;
   padding: 5px 30px 5px 12px;
   width: 336px;
-  background: #FFFFFF;
-  border: 1px solid #D9D9D9;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
   border-radius: 4px;
   background-image: url(../img/search-icon.svg);
   background-repeat: no-repeat;
   background-position: right 12px center;
 }
 
-.user{
+.user {
   display: flex;
   align-items: center;
 }
-.user-avatar{
+.user-avatar {
   margin-right: 8px;
 }
 
-.user-name{
+.user-name {
   color: #ffffff;
   font-weight: 600;
   font-size: 14px;
   line-height: 22px;
 }
-.navigation{
+.navigation {
   display: flex;
   align-items: center;
 }
-.navigation-panel{
+.navigation-panel {
   margin-left: 12px;
   margin-right: 12px;
   display: flex;
   align-items: center;
 }
-.navigation-link{
+.navigation-link {
   display: flex;
   align-items: center;
   margin-left: 12px;
@@ -64,41 +64,40 @@
   font-size: 14px;
   line-height: 22px;
 }
-.navigation-link:before{
-  content: '';
+.navigation-link:before {
+  content: "";
   width: 1px;
   height: 16px;
-  background-color: #003A8C;
+  background-color: #003a8c;
   margin-right: 12px;
 }
-.navigation-link:last-child:after{
-  content: '';
+.navigation-link:last-child:after {
+  content: "";
   width: 1px;
   height: 16px;
-  background-color: #003A8C;
+  background-color: #003a8c;
   margin-left: 12px;
 }
-.icons-panel{
-  margin-top: 5px;
+.icons-panel {
+  /* margin-top: 7px; */
   display: flex;
   align-items: center;
 }
-.icon-link{
+.icon-link {
   display: flex;
   align-items: center;
   margin-right: 17px;
 }
-.header-icon{
+.header-icon {
   fill: #002766;
 }
-.header-icon:hover{
-  fill: white ;
+.header-icon:hover {
+  fill: white;
 }
-.icon-link:last-child:before{
-  content: '';
+.icon-link:last-child:before {
+  content: "";
   width: 1px;
   height: 16px;
-  background-color: #003A8C;
+  background-color: #003a8c;
   margin-right: 12px;
-  
 }
